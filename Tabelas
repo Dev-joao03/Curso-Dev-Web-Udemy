@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Página principal</title>
+
+</head>
+
+<body>
+    <h2>Produtos</h2>
+
+    <table border="2">
+
+        <tr>
+            <!--<th>= cabeçalho da tabela/Títulos da tabela-->
+            <th>Código</td>
+            <th>Produto</td>
+            <th>Preço</td>
+        </tr>
+
+        <tr>
+            <!--<td>= dados da tabela-->
+            <td>001</td>
+            <td>Notebook</td>
+            <td>R$ 2.500,00</td>
+        </tr>
+
+        <tr>
+            <td>002</td>
+            <td>tablet</td>
+            <td>R$ 500,00</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
