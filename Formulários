@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Página principal</title>
+
+</head>
+
+<body>
+    <h2>Login</h2>
+    <form>
+
+        Login: <br> <!-- cria uma caixa de texto-->
+        <input type="text" name="login"> <br>
+
+        Senha: <br> <!--esconde os caracteres da caixa de texto-->
+        <input type="password" name="senha">
+        <br>
+        <!--ele evia o formulário-->
+        <input type="submit" value="Logar">
+    </form>
+
+    <h2>cadastre-se</h2>
+    <form>
+        Login: <br> <!-- cria uma caixa de texto-->
+        <input type="text" name="login"> <br>
+
+        sexo: <br> <!--exibe opçoes para o usuario, podendo marcar somente uma-->
+        <input type="radio" name="sexo" value="M"> Masculino <br>
+        <input type="radio" name="sexo" value="F"> Feminino <br> <br>
+
+        Interesses <br> <!--exibe opçoes para o usuario, podendo marcar mais de uma vez-->
+        <input type="checkbox" name="Interesses"> Esportes <br>
+        <input type="checkbox" name="Interesses"> Estudos <br>
+        <input type="checkbox" name="Interesses"> Games <br>
+
+        Estado: <br>
+        <!--cria uma caixa de opçoes, usado quando há muitas alternativas-->
+        <select name="estado">
+            <option value="sp">SP</option>
+            <option value="ba">BA</option>
+            <option value="rj">RJ</option>
+            <option value="mg">MG</option>
+            <option value="pe">PE</option>
+        </select> <br> <br>
+
+        Observações: <br>
+        <!--cria uma caixa de texto maior e que pode ser regulada pelo usuario-->
+        <textarea></textarea> <br>
+
+        <input type="submit" value="Cadastrar">
+
+
+    </form>
+</body>
+
+</html>
