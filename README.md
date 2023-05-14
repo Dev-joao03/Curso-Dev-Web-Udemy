@@ -1,1 +1,1 @@
-Projetos e Aulas importantes do curso de Desenvolvimento Web da Udemy
+Aulas importantes do curso de Desenvolvimento Web da Udemy
